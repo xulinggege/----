@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A4F4BF3188A549500B2B115 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F4BF2188A549500B2B115 /* SWTableViewCell.m */; };
+		6ADFC00E1889017D009D9E80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADFC00D1889017D009D9E80 /* Foundation.framework */; };
+		6ADFC0101889017D009D9E80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADFC00F1889017D009D9E80 /* CoreGraphics.framework */; };
+		6ADFC0121889017D009D9E80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADFC0111889017D009D9E80 /* UIKit.framework */; };
+		6ADFC0181889017D009D9E80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ADFC0161889017D009D9E80 /* InfoPlist.strings */; };
+		6ADFC01A1889017D009D9E80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADFC0191889017D009D9E80 /* main.m */; };
+		6ADFC01E1889017D009D9E80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADFC01D1889017D009D9E80 /* AppDelegate.m */; };
+		6ADFC0211889017D009D9E80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADFC01F1889017D009D9E80 /* Main.storyboard */; };
+		6ADFC0241889017D009D9E80 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADFC0231889017D009D9E80 /* FirstViewController.m */; };
+		6ADFC0271889017D009D9E80 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADFC0261889017D009D9E80 /* SecondViewController.m */; };
+		6ADFC0291889017D009D9E80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADFC0281889017D009D9E80 /* Images.xcassets */; };
+		6ADFC0301889017D009D9E80 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADFC02F1889017D009D9E80 /* XCTest.framework */; };
+		6ADFC0311889017D009D9E80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADFC00D1889017D009D9E80 /* Foundation.framework */; };
+		6ADFC0321889017D009D9E80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADFC0111889017D009D9E80 /* UIKit.framework */; };
+		6ADFC03A1889017D009D9E80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ADFC0381889017D009D9E80 /* InfoPlist.strings */; };
+		6ADFC03C1889017D009D9E80 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADFC03B1889017D009D9E80 /* ____Tests.m */; };
+		6ADFC046188901A2009D9E80 /* travelIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ADFC045188901A2009D9E80 /* travelIcon.png */; };
+		6ADFC0481889023C009D9E80 /* travelCheck.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6ADFC0471889023C009D9E80 /* travelCheck.plist */; };
+		6ADFC04B18890888009D9E80 /* DeleteItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADFC04A18890888009D9E80 /* DeleteItemsViewController.m */; };
+		6ADFC0541889147E009D9E80 /* ListitemLoadAndSaveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADFC0531889147E009D9E80 /* ListitemLoadAndSaveModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ADFC0331889017D009D9E80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ADFC0021889017D009D9E80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ADFC0091889017D009D9E80;
+			remoteInfo = "旅游清单";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A4F4BF1188A549500B2B115 /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		6A4F4BF2188A549500B2B115 /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+		6ADFC00A1889017D009D9E80 /* 旅游清单.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "旅游清单.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADFC00D1889017D009D9E80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6ADFC00F1889017D009D9E80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6ADFC0111889017D009D9E80 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6ADFC0151889017D009D9E80 /* 旅游清单-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "旅游清单-Info.plist"; sourceTree = "<group>"; };
+		6ADFC0171889017D009D9E80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6ADFC0191889017D009D9E80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6ADFC01B1889017D009D9E80 /* 旅游清单-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "旅游清单-Prefix.pch"; sourceTree = "<group>"; };
+		6ADFC01C1889017D009D9E80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6ADFC01D1889017D009D9E80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6ADFC0201889017D009D9E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ADFC0221889017D009D9E80 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		6ADFC0231889017D009D9E80 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		6ADFC0251889017D009D9E80 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		6ADFC0261889017D009D9E80 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		6ADFC0281889017D009D9E80 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6ADFC02E1889017D009D9E80 /* 旅游清单Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "旅游清单Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADFC02F1889017D009D9E80 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6ADFC0371889017D009D9E80 /* 旅游清单Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "旅游清单Tests-Info.plist"; sourceTree = "<group>"; };
+		6ADFC0391889017D009D9E80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6ADFC03B1889017D009D9E80 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		6ADFC045188901A2009D9E80 /* travelIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = travelIcon.png; sourceTree = "<group>"; };
+		6ADFC0471889023C009D9E80 /* travelCheck.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = travelCheck.plist; sourceTree = "<group>"; };
+		6ADFC04918890888009D9E80 /* DeleteItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteItemsViewController.h; sourceTree = "<group>"; };
+		6ADFC04A18890888009D9E80 /* DeleteItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteItemsViewController.m; sourceTree = "<group>"; };
+		6ADFC0521889147E009D9E80 /* ListitemLoadAndSaveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListitemLoadAndSaveModel.h; sourceTree = "<group>"; };
+		6ADFC0531889147E009D9E80 /* ListitemLoadAndSaveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListitemLoadAndSaveModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ADFC0071889017D009D9E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADFC0101889017D009D9E80 /* CoreGraphics.framework in Frameworks */,
+				6ADFC0121889017D009D9E80 /* UIKit.framework in Frameworks */,
+				6ADFC00E1889017D009D9E80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADFC02B1889017D009D9E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADFC0301889017D009D9E80 /* XCTest.framework in Frameworks */,
+				6ADFC0321889017D009D9E80 /* UIKit.framework in Frameworks */,
+				6ADFC0311889017D009D9E80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ADFC0011889017D009D9E80 = {
+			isa = PBXGroup;
+			children = (
+				6ADFC0131889017D009D9E80 /* 旅游清单 */,
+				6ADFC0351889017D009D9E80 /* 旅游清单Tests */,
+				6ADFC00C1889017D009D9E80 /* Frameworks */,
+				6ADFC00B1889017D009D9E80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ADFC00B1889017D009D9E80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ADFC00A1889017D009D9E80 /* 旅游清单.app */,
+				6ADFC02E1889017D009D9E80 /* 旅游清单Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ADFC00C1889017D009D9E80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ADFC00D1889017D009D9E80 /* Foundation.framework */,
+				6ADFC00F1889017D009D9E80 /* CoreGraphics.framework */,
+				6ADFC0111889017D009D9E80 /* UIKit.framework */,
+				6ADFC02F1889017D009D9E80 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6ADFC0131889017D009D9E80 /* 旅游清单 */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F4BF1188A549500B2B115 /* SWTableViewCell.h */,
+				6A4F4BF2188A549500B2B115 /* SWTableViewCell.m */,
+				6ADFC0471889023C009D9E80 /* travelCheck.plist */,
+				6ADFC01C1889017D009D9E80 /* AppDelegate.h */,
+				6ADFC01D1889017D009D9E80 /* AppDelegate.m */,
+				6ADFC01F1889017D009D9E80 /* Main.storyboard */,
+				6ADFC0221889017D009D9E80 /* FirstViewController.h */,
+				6ADFC0231889017D009D9E80 /* FirstViewController.m */,
+				6ADFC0251889017D009D9E80 /* SecondViewController.h */,
+				6ADFC0261889017D009D9E80 /* SecondViewController.m */,
+				6ADFC04A18890888009D9E80 /* DeleteItemsViewController.m */,
+				6ADFC04918890888009D9E80 /* DeleteItemsViewController.h */,
+				6ADFC0281889017D009D9E80 /* Images.xcassets */,
+				6ADFC0141889017D009D9E80 /* Supporting Files */,
+				6ADFC0521889147E009D9E80 /* ListitemLoadAndSaveModel.h */,
+				6ADFC0531889147E009D9E80 /* ListitemLoadAndSaveModel.m */,
+			);
+			path = "旅游清单";
+			sourceTree = "<group>";
+		};
+		6ADFC0141889017D009D9E80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ADFC045188901A2009D9E80 /* travelIcon.png */,
+				6ADFC0151889017D009D9E80 /* 旅游清单-Info.plist */,
+				6ADFC0161889017D009D9E80 /* InfoPlist.strings */,
+				6ADFC0191889017D009D9E80 /* main.m */,
+				6ADFC01B1889017D009D9E80 /* 旅游清单-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ADFC0351889017D009D9E80 /* 旅游清单Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6ADFC03B1889017D009D9E80 /* ____Tests.m */,
+				6ADFC0361889017D009D9E80 /* Supporting Files */,
+			);
+			path = "旅游清单Tests";
+			sourceTree = "<group>";
+		};
+		6ADFC0361889017D009D9E80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ADFC0371889017D009D9E80 /* 旅游清单Tests-Info.plist */,
+				6ADFC0381889017D009D9E80 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ADFC0091889017D009D9E80 /* 旅游清单 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADFC03F1889017D009D9E80 /* Build configuration list for PBXNativeTarget "旅游清单" */;
+			buildPhases = (
+				6ADFC0061889017D009D9E80 /* Sources */,
+				6ADFC0071889017D009D9E80 /* Frameworks */,
+				6ADFC0081889017D009D9E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "旅游清单";
+			productName = "旅游清单";
+			productReference = 6ADFC00A1889017D009D9E80 /* 旅游清单.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ADFC02D1889017D009D9E80 /* 旅游清单Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADFC0421889017D009D9E80 /* Build configuration list for PBXNativeTarget "旅游清单Tests" */;
+			buildPhases = (
+				6ADFC02A1889017D009D9E80 /* Sources */,
+				6ADFC02B1889017D009D9E80 /* Frameworks */,
+				6ADFC02C1889017D009D9E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ADFC0341889017D009D9E80 /* PBXTargetDependency */,
+			);
+			name = "旅游清单Tests";
+			productName = "旅游清单Tests";
+			productReference = 6ADFC02E1889017D009D9E80 /* 旅游清单Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ADFC0021889017D009D9E80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = it;
+				TargetAttributes = {
+					6ADFC0091889017D009D9E80 = {
+						DevelopmentTeam = CXRYM35285;
+					};
+					6ADFC02D1889017D009D9E80 = {
+						TestTargetID = 6ADFC0091889017D009D9E80;
+					};
+				};
+			};
+			buildConfigurationList = 6ADFC0051889017D009D9E80 /* Build configuration list for PBXProject "旅游清单" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ADFC0011889017D009D9E80;
+			productRefGroup = 6ADFC00B1889017D009D9E80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ADFC0091889017D009D9E80 /* 旅游清单 */,
+				6ADFC02D1889017D009D9E80 /* 旅游清单Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ADFC0081889017D009D9E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADFC046188901A2009D9E80 /* travelIcon.png in Resources */,
+				6ADFC0291889017D009D9E80 /* Images.xcassets in Resources */,
+				6ADFC0181889017D009D9E80 /* InfoPlist.strings in Resources */,
+				6ADFC0211889017D009D9E80 /* Main.storyboard in Resources */,
+				6ADFC0481889023C009D9E80 /* travelCheck.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADFC02C1889017D009D9E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADFC03A1889017D009D9E80 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ADFC0061889017D009D9E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADFC0271889017D009D9E80 /* SecondViewController.m in Sources */,
+				6ADFC01E1889017D009D9E80 /* AppDelegate.m in Sources */,
+				6ADFC04B18890888009D9E80 /* DeleteItemsViewController.m in Sources */,
+				6ADFC0541889147E009D9E80 /* ListitemLoadAndSaveModel.m in Sources */,
+				6A4F4BF3188A549500B2B115 /* SWTableViewCell.m in Sources */,
+				6ADFC0241889017D009D9E80 /* FirstViewController.m in Sources */,
+				6ADFC01A1889017D009D9E80 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADFC02A1889017D009D9E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADFC03C1889017D009D9E80 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ADFC0341889017D009D9E80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ADFC0091889017D009D9E80 /* 旅游清单 */;
+			targetProxy = 6ADFC0331889017D009D9E80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6ADFC0161889017D009D9E80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ADFC0171889017D009D9E80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6ADFC01F1889017D009D9E80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ADFC0201889017D009D9E80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6ADFC0381889017D009D9E80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ADFC0391889017D009D9E80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ADFC03D1889017D009D9E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6ADFC03E1889017D009D9E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ADFC0401889017D009D9E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "旅游清单/旅游清单-Prefix.pch";
+				INFOPLIST_FILE = "旅游清单/旅游清单-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6ADFC0411889017D009D9E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "旅游清单/旅游清单-Prefix.pch";
+				INFOPLIST_FILE = "旅游清单/旅游清单-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6ADFC0431889017D009D9E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/旅游清单.app/旅游清单";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "旅游清单/旅游清单-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "旅游清单Tests/旅游清单Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6ADFC0441889017D009D9E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/旅游清单.app/旅游清单";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "旅游清单/旅游清单-Prefix.pch";
+				INFOPLIST_FILE = "旅游清单Tests/旅游清单Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ADFC0051889017D009D9E80 /* Build configuration list for PBXProject "旅游清单" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADFC03D1889017D009D9E80 /* Debug */,
+				6ADFC03E1889017D009D9E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ADFC03F1889017D009D9E80 /* Build configuration list for PBXNativeTarget "旅游清单" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADFC0401889017D009D9E80 /* Debug */,
+				6ADFC0411889017D009D9E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ADFC0421889017D009D9E80 /* Build configuration list for PBXNativeTarget "旅游清单Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADFC0431889017D009D9E80 /* Debug */,
+				6ADFC0441889017D009D9E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ADFC0021889017D009D9E80 /* Project object */;
+}
