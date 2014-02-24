@@ -282,6 +282,7 @@ static NSString * const kTableViewCellContentView = @"UITableViewCellContentView
     self.scrollViewButtonViewLeft.frame = CGRectMake([self leftUtilityButtonsWidth], 0, [self leftUtilityButtonsWidth], _height);
     self.scrollViewButtonViewRight.frame = CGRectMake(CGRectGetWidth(self.bounds), 0, [self rightUtilityButtonsWidth], _height);
     self.scrollViewContentView.frame = CGRectMake([self leftUtilityButtonsWidth], 0, CGRectGetWidth(self.bounds), _height);
+    //self.scrollViewContentView.frame = CGRectMake(70, 0, CGRectGetWidth(self.bounds), _height);
 }
 
 #pragma mark - Setup helpers

@@ -78,7 +78,7 @@
         cell = [[SWTableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle
                                       reuseIdentifier:cellIdentifier
                                   containingTableView:_itemsNeedCheckTableview // Used for row height and selection
-                                   leftUtilityButtons:rightUtilityButtons
+                                   leftUtilityButtons:nil
                                   rightUtilityButtons:rightUtilityButtons];
         cell.delegate = self;
         
